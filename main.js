@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ClickButton
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.4
 // @description  Click on every button (or disguised button) containing the text inserted
 // @author       Leonard Okaz
 // @match        http://*/*
@@ -18,7 +18,7 @@
         for (var iButton = 0; iButton < buttons.length; iButton++) {
             var button = buttons[iButton];
             //alert("button:" + buttons + ";button.innerHTML:" + button.innerHTML+";matchingText:" + matchingText);
-            if (button.innerHTML === matchingText) {
+            if (button.innerHTML.indexOf(matchingText) !== -1) {
               button.click();
             }
         }
