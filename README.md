@@ -1,4 +1,11 @@
-AcceptFacebookFriendRequest
+## Installation of tampermonkey
+![Installing tampermonkey](https://j.gifs.com/jqLW4B.gif)
 
-Getting the code
-[![Getting the code](http://gifs.com/gif/tampermonkey-installation-jqLW4B)](https://www.youtube.com/watch?v=Z_IexW8Ucjg)
+## Getting the code
+![Copy the code](https://j.gifs.com/yrMWNR.gif)
+
+## Adding the code
+![Pasting the code](https://j.gifs.com/l5DWw1.gif)
+
+## Use case
+![Use case](https://j.gifs.com/OyqpKE.gif)
